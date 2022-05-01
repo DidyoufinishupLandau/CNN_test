@@ -1,0 +1,3 @@
+#execute file
+train_path = ""
+validation_path = ""
