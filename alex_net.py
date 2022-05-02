@@ -127,7 +127,7 @@ def train_model(epochs):
 
     Returns
     -------
-    train_result : the information of training. Stored in hash
+    train_result : the information of training. Stored with the document called saved_model.
 
     """
     get_train_data, get_validation_data, get_class_names = data_load(227)
@@ -165,7 +165,7 @@ def plot(
     Parameters
     ----------
     data array : array
-        the y axis values
+    
     plot_name : string "string" for single function
                 or array contain string has the form["string","string"]
                 The legend of the plot
