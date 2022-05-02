@@ -1,4 +1,3 @@
-# -*- coding: utf-8 -*-
 """
 Created on Mon May  2 02:16:24 2022
 University of Manchester
@@ -148,7 +147,7 @@ def plot(
     multimethod=True,
     compare=False,
     mark_x=False,
-    xMax=False,
+    xMax=False
 ):
     """
     The main plot function. It can plot three types of function which should
@@ -258,7 +257,7 @@ if __name__ == "__main__":
         "epochs",
         "Cross Entropy",
         "Training and Validation loss",
-        compare=True,
+        compare=True
     )
 
     data_array = [validation_accuracy, accuracy]
@@ -269,5 +268,5 @@ if __name__ == "__main__":
         "epochs",
         "Accuracy",
         "Training and Validation accuracy",
-        compare=True,
+        compare=True
     )
